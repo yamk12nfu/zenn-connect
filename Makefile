@@ -1,5 +1,7 @@
-NA = "new:article"
-
 .PHONY: new-ac
 new-ac:
-	npx zenn $(NA)
+	npx zenn new:article
+
+.PHONY: preview
+preview:
+	npx zenn preview
